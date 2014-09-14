@@ -1,10 +1,9 @@
-# Maintainer: Miguel de Val-Borro <miguel.deval@gmail.com>
-# Contributor: Miguel de Val-Borro <miguel.deval@gmail.com>
+# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
 pkgname=('python-sphinx-bootstrap-theme' 'python2-sphinx-bootstrap-theme')
 pkgver=0.4.1
-pkgrel=1
-pkgdesc="Sphinx Bootstrap Theme"
-arch=('i686' 'x86_64')
+pkgrel=2
+pkgdesc="Sphinx documentaion generation Bootstrap theme"
+arch=('any')
 url="http://ryan-roemer.github.io/sphinx-bootstrap-theme/"
 license=('MIT')
 makedepends=('python-setuptools' 'python2-setuptools')
