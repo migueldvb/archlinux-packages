@@ -1,2 +1,3 @@
 django-guardian
+django-bootstrap3
 sphinx-bootstrap-theme
