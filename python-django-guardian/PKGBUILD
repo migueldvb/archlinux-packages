@@ -1,4 +1,4 @@
-# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
+# Maintainer: Miguel de Val-Borro <miguel at archlinux dot net>
 pkgname=('python-django-guardian' 'python2-django-guardian')
 pkgver=1.2.4
 pkgrel=1

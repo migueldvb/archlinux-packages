@@ -1,4 +1,4 @@
-# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
+# Maintainer: Miguel de Val-Borro <miguel at archlinux dot net>
 
 pkgname=('python-django-bootstrap3' 'python2-django-bootstrap3')
 pkgver=4.11.0

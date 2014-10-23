@@ -1,4 +1,4 @@
-# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
+# Maintainer: Miguel de Val-Borro <miguel at archlinux dot net>
 
 pkgname=('python-markdown2' 'python2-markdown2')
 pkgver=2.3.0

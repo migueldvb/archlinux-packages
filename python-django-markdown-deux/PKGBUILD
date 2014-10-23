@@ -1,4 +1,4 @@
-# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
+# Maintainer: Miguel de Val-Borro <miguel at archlinux dot net>
 
 pkgname=('python-django-markdown-deux' 'python2-django-markdown-deux')
 pkgver=1.0.5

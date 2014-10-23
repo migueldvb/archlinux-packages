@@ -1,4 +1,4 @@
-# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
+# Maintainer: Miguel de Val-Borro <miguel at archlinux dot net>
 pkgname=('python-sphinx-bootstrap-theme' 'python2-sphinx-bootstrap-theme')
 pkgver=0.4.2
 pkgrel=1

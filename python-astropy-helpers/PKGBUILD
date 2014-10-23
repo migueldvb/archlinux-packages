@@ -1,4 +1,4 @@
-# Maintainer: Miguel de Val-Borro <valborro at princeton dot edu>
+# Maintainer: Miguel de Val-Borro <miguel at archlinux dot net>
 pkgname=('python-astropy-helpers' 'python2-astropy-helpers')
 pkgver=0.4.3
 pkgrel=1
