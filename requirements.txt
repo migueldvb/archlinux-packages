@@ -1,5 +1,5 @@
 astropy-helpers==0.4.3
-django-bootstrap3==4.11.0
+django-bootstrap3==5.0.2
 django-guardian==1.2.4
 django-markdown-deux==1.0.5
 sphinx-bootstrap-theme==0.4.3
