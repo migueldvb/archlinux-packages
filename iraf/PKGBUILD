@@ -48,7 +48,7 @@ md5sums=('d08b3223595fc5250276bed6369df271'
          '37ca80752e73ed263243b0fce098d299'
          'ae9c71e0591c7636a7351eacf9bb10ef')
 
-build() {
+package() {
   mkdir -p $pkgdir/iraf/iraf/local
   mkdir -p $pkgdir/iraf/irafbin/bin.linux
   mkdir -p $pkgdir/iraf/irafbin/noao.bin.linux
@@ -69,14 +69,10 @@ build() {
   cat $srcdir/nb.lnux.*.gz | zcat | tar -xpf -
   cd $pkgdir/usr/local/src/x11iraf
   tar -xzf $srcdir/x11iraf-v2.0BETA-bin.linux.tar.gz
-}
   
-package() {
   install -Dm644 $srcdir/iraf.desktop $pkgdir/usr/share/applications/iraf.desktop
   install -Dm644 $srcdir/iraf.png $pkgdir/usr/share/pixmaps/iraf.png
   install -Dm755 $srcdir/iraf.run $pkgdir/usr/bin/iraf
   install -Dm755 $srcdir/iraf-install.run $pkgdir/usr/bin/iraf-install
   ln -s /usr/local/bin/mkiraf $pkgdir/usr/bin/mkiraf
-  tar -C $pkgdir/iraf/iraf -xpf $srcdir/iraf.lnux.*.tar.gz
-  tar -C $pkgdir/usr/local/src/x11iraf -xpf $srcdir/x11iraf-v${_x11iraf}-bin.linux.tar.gz
 }
