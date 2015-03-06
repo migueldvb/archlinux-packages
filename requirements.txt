@@ -1,4 +1,4 @@
-astropy-helpers==1.0
+astropy-helpers==1.0.1
 django-bootstrap3==5.1.1
 django-guardian==1.2.5
 django-markdown-deux==1.0.5
